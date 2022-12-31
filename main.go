@@ -124,7 +124,7 @@ import (
 	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/scale"         // 叔叔的AI二次元图片放大
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/score"         // 分数
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/setutime"      // 来份涩图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"       // 沙雕app
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shadiao"       // 沙雕app
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/shindan"       // 测定
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tarot"         // 抽塔罗牌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/tiangou"       // 舔狗日记
@@ -204,7 +204,7 @@ func init() {
 	// 直接写死 AccessToken 时，请更改下面第二个参数
 	token := flag.String("t", "", "Set AccessToken of WSClient.")
 	// 直接写死 URL 时，请更改下面第二个参数
-	url := flag.String("u", "ws://127.0.0.1:6710", "Set Url of WSClient.")
+	url := flag.String("u", "ws://127.0.0.1:6705", "Set Url of WSClient.")
 	// 默认昵称
 	adana := flag.String("n", "miko", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")

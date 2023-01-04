@@ -29,7 +29,7 @@ import (
 )
 
 const (
-	backgroundURL = "http://img.xjh.me/random_img.php"
+	backgroundURL = "https://api.yimian.xyz/img"
 	signinMax     = 1
 	// SCOREMAX 分数上限定为1200
 	SCOREMAX = 1200
